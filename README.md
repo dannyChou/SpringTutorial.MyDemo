@@ -34,3 +34,17 @@ spring.mvc.view.suffix =  .jsp
 
 
 
+>Spring MVC-@Service的使用
+
+    需設定下列
+    @SpringBootApplication(scanBasePackages="com.example")
+    public class DemoApplication {
+
+	    public static void main(String[] args) {
+		    SpringApplication.run(DemoApplication.class, args);
+	    }
+
+    }
+
+
+

@@ -8,7 +8,10 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	</head>
 <body>
-	For Run in JSP: ${message}
+	<!-- For Run in MyDemo\JSP: ${message}
+	For Run in MyDemo\JSP UserID: ${ID} -->
+	For Run in MyDemo\JSP: ${message}
+	For Run in MyDemo\JSP UserID: ${ID}
 </body>
 
 </html>
