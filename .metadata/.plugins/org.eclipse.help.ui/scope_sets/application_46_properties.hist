@@ -1,0 +1,4 @@
+#Wed Nov 06 17:38:54 CST 2019
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=application.properties
