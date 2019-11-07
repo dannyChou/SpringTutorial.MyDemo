@@ -19,7 +19,7 @@ public class UserController {
 
     private String message = "鐵人賽第七天加油!!!";
 
-    @GetMapping("/")
+    @GetMapping("/User")
     public String index(Map<String, Object> model) {
         model.put("message", this.message);
         model.put("ID",userService.getUserId());
