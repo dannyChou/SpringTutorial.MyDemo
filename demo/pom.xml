@@ -16,6 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
@@ -36,11 +38,13 @@
 			</exclusions>
 		</dependency>
 		
+		<!-- 往全端工程師之路邁進使用hymeleaf導入static靜態資源 -->
 		<!-- <dependency>
       		<groupId>org.springframework.boot</groupId>
       		<artifactId>spring-boot-starter-thymeleaf</artifactId>
     	</dependency>	 -->
 
+		<!-- Start 使用JSP時需要開放 -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -51,6 +55,14 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<!-- END 使用JSP時需要開放 -->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 
 		<dependency>
 			<groupId>mysql</groupId>
