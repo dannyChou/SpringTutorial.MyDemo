@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "text-truncate.scss"
+    ],
+    "names": [],
+    "file": "text-truncate.css"
+}

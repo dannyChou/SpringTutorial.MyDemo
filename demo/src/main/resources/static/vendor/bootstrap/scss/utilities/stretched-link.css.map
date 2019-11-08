@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AACE,eADa,AACZ,OAAO,CAAC;EACP,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,CAAC;EAEV,cAAc,EAAE,IAAI;EACpB,OAAO,EAAE,EAAE;EAEX,gBAAgB,EAAE,gBAAgB;CACnC",
+    "sources": [
+        "stretched-link.scss"
+    ],
+    "names": [],
+    "file": "stretched-link.css"
+}
